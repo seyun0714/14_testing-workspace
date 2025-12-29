@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1766978741351" clover="3.2.0">
+  <project timestamp="1766978741352" name="All files">
+    <metrics statements="36" coveredstatements="28" conditionals="10" coveredconditionals="7" methods="17" coveredmethods="12" elements="63" coveredelements="47" complexity="0" loc="36" ncloc="36" packages="1" files="2" classes="2"/>
+    <file name="01_basic.ts" path="C:\dev\workspaces\potenup\14_testing-workspace\01_jest\src\01_basic.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+    <file name="02_matcher.ts" path="C:\dev\workspaces\potenup\14_testing-workspace\01_jest\src\02_matcher.ts">
+      <metrics statements="30" coveredstatements="22" conditionals="9" coveredconditionals="6" methods="15" coveredmethods="10"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="3" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="57" count="4" type="cond" truecount="3" falsecount="0"/>
+      <line num="58" count="2" type="stmt"/>
+      <line num="60" count="2" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="73" count="3" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="82" count="0" type="stmt"/>
+      <line num="91" count="1" type="stmt"/>
+      <line num="95" count="1" type="stmt"/>
+      <line num="96" count="3" type="stmt"/>
+      <line num="106" count="1" type="stmt"/>
+      <line num="107" count="0" type="stmt"/>
+      <line num="115" count="1" type="stmt"/>
+      <line num="116" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="117" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="118" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="119" count="0" type="cond" truecount="0" falsecount="1"/>
+      <line num="120" count="0" type="stmt"/>
+      <line num="130" count="1" type="stmt"/>
+      <line num="135" count="1" type="stmt"/>
+      <line num="136" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="145" count="1" type="stmt"/>
+      <line num="146" count="0" type="stmt"/>
+      <line num="147" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
