@@ -15,6 +15,8 @@
 import {
   addToCart,
   calculateCartTotal,
+  clearCartFromLocalStorage,
+  getCartFromLocalStorage,
   getCartItemCount,
   Product,
   removeFromCart,
@@ -98,5 +100,13 @@ describe('장바구니 기능 테스트', () => {
     const cart = removeFromCart(1);
     expect(cart).toHaveLength(1);
     expect(cart[0].productName).toBe('마우스');
+  });
+
+  test('장바구니 초기화 테스트', () => {
+    addToCart(testProduct1, 2);
+    addToCart(testProduct2, 4);
+    clearCartFromLocalStorage();
+    const cart = getCartFromLocalStorage();
+    expect(cart).toHaveLength(0);
   });
 });
